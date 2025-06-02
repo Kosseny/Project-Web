@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel= "stylesheet" href="../css/styles.css">
+            <script src="../js/script.js"></script>
+            <title>Où reprendre le drama ?</title>
+        </head>
+        
+        <body>
+            <header>
+                <img src="../img/affiche.jpeg" alt="ImageHeader">
+                <nav>
+                    <a href="./cdrama.html">C-DRAMA</a>
+                    <a href="./jdrama.html">J-DRAMA</a>
+                    <a href="./kdrama.html">K-DRAMA</a>
+                </nav>
+            </header>
+
+            <div>
+                <h1>Notez vos dramas ici !</h1>
+                <form method="post" name="Noter" action="#" class="box" id="Noter" onsubmit="return false"> 
+                    <fieldset name="info1">
+                        <legend>Genre du drama</legend>
+                        <input type="radio" id="kdrama" name="dramaGenre">
+                        <label for="kdrama">K-Drama</label>
+        
+                        <input type="radio" id="cdrama" name="dramaGenre">
+                        <label for="cdrama">C-Drama</label>
+        
+                        <input type="radio" id="jdrama" name="dramaGenre">
+                        <label for="jdrama">J-Drama</label>
+                    </fieldset>
+        
+                    <fieldset name="info2">
+                        <legend>Nom du drama et note</legend>
+                        <div>
+                            <label for="Nom">Nom du drama :</label>
+                            <input type="text" id="Nom" name="Nom" placeholder="Itaewon Class">
+                        </div>
+                        <div>
+                            <label for="Note">Note sur 10 :</label>
+                            <input type="number" min="0" max="10" id="Note" name="Note" value="0">
+                        </div>
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>Ajouter à votre liste</legend>    
+                        <button onclick="ajouterElement()" class = "Ajouter"> Ajouter</button>
+                        <button onclick="supprimerDerniereLigne()" class="Retour">Retour</button>
+                        <button onclick="supprimer()" class = "Supprimer"> Supprimer</button>
+                    </fieldset>
+                </form>
+        
+                <main class="box">
+                    <table id="tableau" class="datatable">
+                        <tr>
+                            <th>Genre du Drama</th>
+                            <th>Nom du Drama</th>
+                            <th>Note sur 10</th>
+                        </tr>
+                    </table>
+                </main>
+            </div>
+
+            <footer>
+                <p style="text-align:center; margin-top: 30px; color: beige;">&copy; 2025 MiamDRAMA | Projet réalisé par John & Anita</p>
+                <a href="./apropos.html">A PROPOS</a>
+            </footer>
+        </body>
+
+    </html>

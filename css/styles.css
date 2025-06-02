@@ -1,0 +1,391 @@
+body {
+    background-color: #d0e4fe;
+}
+
+header, footer {
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    background-image: url("../img/background.png");
+}
+
+footer a {
+    color:white;
+}
+
+footer a:hover {
+    color : white;
+    background-color: rgb(120, 164, 230);
+    border-radius: 20px;
+}
+
+header img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+nav a {
+    color:white;
+    display: inline-block;
+    text-decoration-line: none;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px; 
+}
+
+nav a:hover {
+    color : white;
+    background-color: rgb(120, 164, 230);
+    border-radius: 20px;
+}
+
+h2 {
+    background-color: rgb(120, 164, 230);
+}
+
+div img {
+    max-width: 300px;
+    width: 50%;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.datatableKdrama {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.datatableKdrama th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background-color:#c5d963;
+    color: white;
+}
+
+.datatableKdrama td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.datatableJdrama {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.datatableJdrama th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background-color:#58d291;
+    color: white;
+}
+
+.datatableJdrama td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.datatableCdrama {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.datatableCdrama th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background-color:#efaadd;
+    color: white;
+}
+
+.datatableCdrama td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.Image-tableau {
+    display: flex;
+    margin-right: 30px;
+}
+
+h2:hover {
+    background-color: aqua;
+}
+
+h2 a:hover{
+    color: white;
+}
+
+.Romance {
+    position: relative;
+    display: inline-block;
+}
+
+.Romance:hover::after {
+    content: "Romance";
+    position: absolute;           
+    top: 100%;
+    left: 0;
+    background: rgb(244, 114, 136);
+    border: 3px solid rgb(240, 60, 90);
+    padding: 4px 8px;
+    white-space: nowrap;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.Action {
+    position: relative;
+    display: inline-block;
+}
+
+.Action:hover::after {
+    content: "Action";
+    position: absolute;           
+    top: 100%;
+    left: 0;
+    background: rgb(91, 84, 222);
+    border: 3px solid rgb(16, 63, 220);
+    padding: 4px 8px;
+    white-space: nowrap;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.Horreur {
+    position: relative;
+    display: inline-block;
+}
+
+.Horreur:hover::after {
+    content: "Horreur";
+    position: absolute;           
+    top: 100%;
+    left: 0;                      
+    background: rgb(136, 224, 165);
+    border: 3px solid rgb(52, 223, 109);
+    padding: 4px 8px;
+    white-space: nowrap;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.Mystere {
+    position: relative;
+    display: inline-block;
+}
+
+.Mystere:hover::after {
+    content: "Mystere";
+    position: absolute;           
+    top: 100%;
+    left: 0;                      
+    background: rgb(190, 136, 224);
+    border: 3px solid rgb(153, 45, 220);
+    padding: 4px 8px;
+    white-space: nowrap;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.Fantastique {
+    position: relative;
+    display: inline-block;
+}
+
+.Fantastique:hover::after {
+    content: "Fantastique";
+    position: absolute;           
+    top: 100%;
+    left: 0;                      
+    background: white;
+    border: 3px solid black;
+    padding: 4px 8px;
+    white-space: nowrap;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.Aventure {
+    position: relative;
+    display: inline-block;
+}
+
+.Aventure:hover::after {
+    content: "Aventure";
+    position: absolute;           
+    top: 100%;
+    left: 0;                      
+    background: rgb(230, 190, 120);
+    border: 3px solid rgb(228, 161, 44);
+    padding: 4px 8px;
+    white-space: nowrap;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.Comedie {
+    position: relative;
+    display: inline-block;
+}
+
+.Comedie:hover::after {
+    content: "Comedie";
+    position: absolute;           
+    top: 100%;
+    left: 0;                      
+    background: rgb(230, 228, 120);
+    border: 3px solid rgb(230, 226, 20);
+    padding: 4px 8px;
+    white-space: nowrap;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+fieldset label,
+fieldset input[type="checkbox"] {
+  margin: 0 10px;
+}
+
+fieldset .Ajouter{
+    background: #2c18e0;
+    color: white;
+    border-style: solid;
+    height: 30px;
+    margin-right: 20px;
+}
+
+fieldset .Retour{
+    background: #828090;
+    color: white;
+    border-style: solid;
+    height: 30px;
+    margin-right: 20px;
+}
+
+fieldset .Supprimer{
+    background: rgb(247, 3, 44);
+    color: white;
+    border-style: solid;
+    height: 30px;
+}
+
+#tableau {
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px solid #272cb3;
+    background-color: white;
+    margin: 30px auto 30px auto;
+    display: none;
+}
+
+#tableau th,
+#tableau td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#Noter {
+    width: 80%;
+    margin: 30px auto 30px auto;
+    background-color: white;
+    padding: 10px;
+    border: 5px solid #272cb3;
+    border-radius: 20px;
+}
+
+
+legend {
+    font-weight: bold;
+    background-color: rgb(112, 214, 201);
+    border-radius: 8px;
+}
+
+.fade-in {
+    animation: fadeInAnimation 0.5s ease-in;
+}
+
+main.apropos {
+    padding: 30px;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+  
+main.apropos h1 {
+    color: #002b80;
+}
+
+main.apropos h2 {
+    margin-top: 30px;
+    color: #003399;
+}
+
+.merci {
+    margin-top: 30px;
+    font-style: italic;
+  }
+
+@keyframes fadeInAnimation {
+    0% {
+    opacity: 0;
+    transform: translateY(10px); 
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    fieldset {
+        display: block;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Image-tableau {
+        display: block;
+        margin-right:auto;
+        margin-left: auto;
+    }
+    div img {
+        width: 100%;
+    }
+    .datatableKdrama {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .datatableJdrama {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .datatableCdrama {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
