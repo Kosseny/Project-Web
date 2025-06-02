@@ -1,15 +1,39 @@
 Ce projet web a été réalisé par John Zhan & Kosseny Chiv dans le cadre d’un cours de programmation web. Il s’agit d’un site statique dédié aux dramas coréens, japonais et chinois.
 
 ## Structure du projet
-
 ProjetProgrammationWeb/
-├── html/ # Pages principales du site (accueil, cdrama, jdrama, kdrama, apropos)
+├── css/
+│   └── styles.css               
+│
+├── js/
+│   └── script.js                
+│
+├── html/
+│   ├── accueil.html             
+│   ├── cdrama.html             
+│   ├── jdrama.html              
+│   ├── kdrama.html              
+│   └── apropos.html            
+│
+├── img/
+│   ├── Alice.png
+│   ├── CheeseTrap.png
+│   ├── Itazura_na_Kiss.jpg
+│   ├── Kimi-ni-todoke.jpg
+│   ├── KimiWaPetto.jpg
+│   ├── KingsAvatar.jpeg
+│   ├── Mo-Dao-Zu-Shi.png
+│   ├── Nodame_Cantabile.jpg
+│   ├── Rakshasa_Street.jpg
+│   ├── Spirit_Blade_Mountain.jpg
+│   ├── The_Long_Ballad.jpg
+│   ├── The_Lost_Tomb.jpg
+│   ├── TokyoTaraeba.jpeg
+│   ├── WeakHero.jpg
+│   └── [autres fichiers image...]
+│
+└── Maquette Zhan_Chiv_Web.pdf.pdf   # Document de maquette du projet
 
-├── css/styles.css # Feuille de style principale
-
-├── js/script.js # Script JavaScript pour le formulaire interactif
-
-├── img/ # Affiches et images illustratives
 
 ---
 
