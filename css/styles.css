@@ -342,6 +342,11 @@ main.apropos h2 {
     color: #003399;
 }
 
+.footer-text {
+    text-align: center;
+    color: beige;
+}
+
 .merci {
     margin-top: 30px;
     font-style: italic;
@@ -363,7 +368,7 @@ main.apropos h2 {
         display: block;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .Image-tableau {
         display: block;
         margin-right:auto;
@@ -388,4 +393,3 @@ main.apropos h2 {
         margin-right: auto;
     }
 }
-
