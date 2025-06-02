@@ -4,13 +4,16 @@ Ce projet web a été réalisé par John Zhan & Kosseny Chiv dans le cadre d’u
 
 ProjetProgrammationWeb/
 ├── html/ # Pages principales du site (accueil, cdrama, jdrama, kdrama, apropos)
+
 ├── css/styles.css # Feuille de style principale
+
 ├── js/script.js # Script JavaScript pour le formulaire interactif
+
 ├── img/ # Affiches et images illustratives
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - Navigation par type de drama (C-Drama, J-Drama, K-Drama)
 - Affichage de fiches dramas avec images et tableaux d’informations
